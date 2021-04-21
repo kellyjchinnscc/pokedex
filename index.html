@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+  <div class="flexbox-container">
+    <h1 id="heading">Dexter The PokeDex!</h1>
+  </div>
+  <div class="flexbox-container">
+
+    <div class="flexbox-item flexbox-item1">
+      <img id="poke-image"src="" width="220px" height="220px">
+      <p id="p1" style="text-align: center;"></p>
+    </div>
+
+    <div class="flexbox-item flexbox-item2">
+      <h3 id="p2" class="article">Sample Move Set</h3>
+      <ul class="poke-details-list">
+      </ul>
+    </div>
+
+    <div class="flexbox-item flexbox-item3">
+      <h3 id="p3">Stats</h3>
+      <ul class="poke-details-list">
+      </ul>
+    </div>
+
+  </div>
+  <br>
+
+  <div class="flexbox-container">
+    <select name="poke-selector" id="poke-selector"></select>
+  </div>
+
+  <div class="footer">
+    <h2>Developer - Kelly Chin | API Link - <a href="https://pokeapi.co/" class="api-link">PokeAPI</a></h2>
+  </div>
+     
+  <script type="module" src="main.js"></script>
+  <script type="module"  src="functions.js"></script>
+</body>
+</html>

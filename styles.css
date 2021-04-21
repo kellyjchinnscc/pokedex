@@ -1,0 +1,41 @@
+*{
+    font-family: 'Roboto';
+    color: rgb(3, 3, 3);
+}
+
+body{
+    /* background-color: rgb(255, 0, 0); */
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: center
+}
+
+.flexbox-item {
+    border: groove;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+}
+
+#poke-image {
+    border: groove;
+    border-radius: 400px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h3{
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}
